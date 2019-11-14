@@ -1,0 +1,594 @@
+
+/****************_FONTS_*********************/
+@font-face {
+    font-family: 'RubikBold';
+    src: url('../fonts/rubik_bold/fonts/RubikBold.eot');
+    src: url('../fonts/rubik_bold/fonts/RubikBold.eot') format('embedded-opentype'),
+         url('../fonts/rubik_bold/fonts/RubikBold.woff2') format('woff2'),
+         url('../fonts/rubik_bold/fonts/RubikBold.woff') format('woff'),
+         url('../fonts/rubik_bold/fonts/RubikBold.ttf') format('truetype'),
+         url('../fonts/rubik_bold/fonts/RubikBold.svg#RubikBold') format('svg');
+}
+@font-face {
+    font-family: 'RubikMedium';
+    src: url('../fonts/rubik_medium/fonts/RubikMedium.eot');
+    src: url('../fonts/rubik_medium/fonts/RubikMedium.eot') format('embedded-opentype'),
+         url('../fonts/rubik_medium/fonts/RubikMedium.woff2') format('woff2'),
+         url('../fonts/rubik_medium/fonts/RubikMedium.woff') format('woff'),
+         url('../fonts/rubik_medium/fonts/RubikMedium.ttf') format('truetype'),
+         url('../fonts/rubik_medium/fonts/RubikMedium.svg#RubikMedium') format('svg');
+}
+@font-face {
+    font-family: 'RubikRegular';
+    src: url('../fonts/rubik_regular/fonts/RubikRegular.eot');
+    src: url('../fonts/rubik_regular/fonts/RubikRegular.eot') format('embedded-opentype'),
+         url('../fonts/rubik_regular/fonts/RubikRegular.woff2') format('woff2'),
+         url('../fonts/rubik_regular/fonts/RubikRegular.woff') format('woff'),
+         url('../fonts/rubik_regular/fonts/RubikRegular.ttf') format('truetype'),
+         url('../fonts/rubik_regular/fonts/RubikRegular.svg#RubikRegular') format('svg');
+}@font-face {
+    font-family: 'Cambria-Bold';
+    src: url('../fonts/cambria_bold/fonts/Cambria-Bold.eot');
+    src: url('../fonts/cambria_bold/fonts/Cambria-Bold.eot') format('embedded-opentype'),
+         url('../fonts/cambria_bold/fonts/Cambria-Bold.woff2') format('woff2'),
+         url('../fonts/cambria_bold/fonts/Cambria-Bold.woff') format('woff'),
+         url('../fonts/cambria_bold/fonts/Cambria-Bold.ttf') format('truetype'),
+         url('../fonts/cambria_bold/fonts/Cambria-Bold.svg#Cambria-Bold') format('svg');
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1.1713vw;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*******************_________HEADER__________************************/
+.header_top{
+    background: url(../img/bg_head.jpg) no-repeat center;
+    width: 100%;
+    max-height: 76px;
+}
+
+.header_top>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_contact{
+    display: flex;
+}
+
+.header_contact a{
+    font-family: 'RubikRegular';
+    text-decoration: none;
+    color: #fff;
+}
+.header_contact a >.fas{
+    background-color: #fff;
+    color: #297ab8;
+    border-radius: 50%;
+    margin: 25px 0;
+}
+
+.header_contact span{
+    margin-left: 14px;
+    font-size: 1.125em;
+}
+.mail{
+    margin-left: 37px;
+}
+
+
+.header_social_icon a{
+    color: #fff;
+    padding-right: 18px;
+    font-size: 0.937em;
+}
+
+.fa-facebook-f:hover{
+    color: red;
+}
+
+.header_social_icon a:last-child{
+    padding-right: 0;
+}
+.header_bottom{
+    width: 100%;
+    max-height: 130px;
+}
+
+.header_bottom > .container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 34px 0 32px 0;
+}
+.logo{
+    flex: 1;
+}
+
+.nav li{
+    list-style: none;
+    float: left;
+    padding-right: 40px;
+}
+.nav li:last-child{
+    padding-right: 0;
+}
+.nav a{
+    font-family: 'Cambria-Bold';
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 1.125em;
+}
+.nav a:hover{
+    color: #003471;
+}
+
+
+
+
+
+
+
+
+/*******************_________BANNER_SECTION__________************************/
+.banner{
+    background: url(../img/banner_img.jpg) no-repeat center;
+    height: 800px;
+}
+
+.banner> .container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.financing{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /* height: 26%; */
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.financing>.text{
+    padding-left: 7.265%;
+    padding-bottom: 7.265%;
+}
+
+.financing>.text>h2{
+    color: #175da6;
+    font-size: 2.25em;
+}
+
+.financing>.text>p{
+    color: #454546;
+    font-size:1.25em; 
+}
+.btnn1{
+    align-self: center;
+}
+
+.btn1 a{
+    font-family: 'Cambria-Bold';
+    text-decoration: none;
+    color: #fff;
+    width: 270px;
+    max-height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 20.5px 81px;
+    background-image: linear-gradient(to bottom right, #2989cc, #7950ef);
+}
+
+
+
+
+/***********_rock_solid_****************/
+.rock_solid{
+    width: 100%;
+    max-height: 280px;
+    background: #fff;
+}
+ .rock_solid_texts{
+    display: flex;s
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+.left_text{
+    max-width: 300px;
+    padding: 114px 0 103px 0;
+}
+.left_text h2{
+    font-family: 'Cambria-Bold';
+    font-size: 1.75em;
+    color: #5a5a5a;
+    margin: 0;
+}
+.left_text h2:last-child{
+    padding-top: 13px;
+}
+
+.right_text{
+    max-width: 870px;
+}
+.right_text p{
+    font-family: 'RubikRegular';
+    line-height: 1.75;
+    padding-top: 95px;
+    color: #858585;
+    font-size: 1em;
+    margin: 0;
+}
+
+
+
+
+/***********_OFFER_SECTION_************/
+.offers{
+    background-color: #f7f9fb;
+    max-height: 740px;
+    width: 100%;
+}
+.offer_top{
+    text-align: center;
+}
+
+.offer_top h2{
+    font-family: 'Cambria-Bold';
+    font-size: 2em; 
+    color: #5a5a5a; 
+    margin: 0;
+    padding-top: 93px;
+}
+.offer_top p{
+    font-family: 'RubikRegular';
+    line-height: 1.75;
+    font-size: 1em;
+    color: #858585;
+}
+
+.offer_botoom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.offer_item{
+    max-width: 370px;
+    display: flex;
+    padding: 20px 0;
+}
+.offer_details{
+    padding-left: 15px;
+}
+.offer_details h2{
+    font-family: 'RubikMedium';
+    font-size: 1.25em;
+    color: #646464;
+    margin: 0;
+}
+.offer_details p{
+    font-family: 'RubikRegular';
+    font-size: 1.0625em;
+    color: #929292;
+    line-height: 1.65;
+}
+
+
+
+
+/***********_QUESTION_SECTION_************/
+.question{
+    background: url(../img/bg_1.jpg) no-repeat center;
+    max-height: 260px;s
+}
+
+.question> .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_part{
+    max-width: 670px;
+    padding: 60px 0 55px 0;
+}
+.text_part>h2{
+    font-family: 'Cambria-Bold';
+    font-size: 1.875em;
+    padding-bottom: 10px;
+    color: #fff;
+    margin: 0;
+}
+.text_part>p{
+    font-family: 'RubikRegular';
+    font-size: 1.0625em;
+    color: #bdc6d1;
+    line-height: 1.65;
+    margin: 0;
+
+}
+.btn>a{
+    font-family: 'Cambria-Bold';
+    text-decoration: none;
+    font-size: 1.25em; 
+    color: #fff;
+    border:2px solid #fff;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+
+
+/***********_VEHICLES_SECTION_************/
+.vehicles{
+    width: 100%;
+    max-height: 570px;
+}
+.vehicles_text{
+    font-family: 'Cambria-Bold';
+    font-size: 1.375em;
+    text-align: center;
+    padding: 85px 0 40px 0;
+
+}
+.vehicles_text p{
+    margin: 0;
+}
+
+.vehicles_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 125px;
+
+}
+.vehicles_items a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #2989cc, #7950ef);
+}
+.trailers a{
+     padding: 15px 100px;
+}
+.rvs a{
+     padding: 15px 124px;
+}
+.boat a{
+     padding: 15px 113px;
+}.bike a{
+     padding: 15px 119px;
+}
+
+
+
+
+
+/**********_Testimonial_SECTIONN_************/
+.testimonial{
+    width: 100%;
+    height: 365px;
+    background-color: #f7f9fb; 
+}
+.text_and_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_and_img>.text{
+    width: 600px;
+}
+
+.testimonial_img>img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/**********_Tailer_business_SECTIONN_************/
+.trailer_business{
+    width: 100%;
+    max-height: 430px;
+    background-color: #fff; 
+}
+.text_and_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_and_img>.text{
+    width: 600px;
+}
+.testimonial_img>img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    display: block;
+}
+
+
+
+
+
+/***********_contact_SECTION_************/
+.contact{
+    background: url(../img/bg_1.jpg) no-repeat center;
+    max-height: 260px;s
+}
+
+.contact> .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_part{
+    max-width: 670px;
+    padding: 60px 0 55px 0;
+}
+.text_part>h2{
+    font-family: 'Cambria-Bold';
+    font-size: 1.875em;
+    padding-bottom: 10px;
+    color: #fff;
+    margin: 0;
+}
+.text_part>p{
+    font-family: 'RubikRegular';
+    font-size: 1.0625em;
+    color: #bdc6d1;
+    line-height: 1.65;
+    margin: 0;
+
+}
+.btn>a{
+    font-family: 'Cambria-Bold';
+    text-decoration: none;
+    font-size: 1.25em; 
+    color: #fff;
+    border:2px solid #fff;
+    padding: 20px 50px;
+ 
+}
+
+
+
+
+/***********_ROCK_INDUSTRY_************/
+.rock_industry{
+    background: url(../img/bg_2.jpg) no-repeat center;
+}
+
+.industry_opportunitys{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 46px 0 43px 0;
+}  
+
+.about_industry{
+    max-width: 670px;
+    height: 100%;
+}
+
+.about_industry h2{
+    font-family: 'Cambria-bold';
+    margin-top: 0;
+    font-size: 1.375em;
+    color: #fff;
+    font-size: 1.875em; 
+    padding-top: 43px; 
+}
+
+.about_industry p{
+    font-family: 'RubikRegular';
+    color: #fff;
+    line-height: 2.235;
+    font-size: 1.0625em; 
+}
+
+.opportunitys{
+    max-width: 430px;
+    height: 100%;
+}
+.check_mark{
+    padding-right: 14px;
+}
+
+.opportunitys ul{
+    list-style: none;
+    margin: 0;
+}
+
+.opportunitys li{
+    font-family: 'Cambria-bold';
+    font-weight: lighter;
+    color: #fff;
+    margin-right: 0;
+    padding: 13px 0;
+}
+
+
+
+
+
+
+/************_LOGO_HOLDER_****************/
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 95px 0 90px 0;
+}
+.logos li{
+    list-style: none;
+    display: inline;
+    width: 25%;
+    }
+
+
+/*************_FOOTER_*************/
+.footer{
+    background: url(../img/bg_3.jpg) no-repeat center; 
+}
+
+.foote_top{
+    font-family: 'RubikRegular';
+    width: 100%;
+}
+
+.all_address{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 96px 0 80px 0;
+    display: flex;
+}
+
+.all_address p{
+    font-family: 'RubikRegular';
+    font-size: 1.25em;
+    line-height: 1.9;
+    color: #fff;
+    margin: 0;
+}
+
+
+.footer_bottom p{
+    font-family: 'RubikRegular';
+    background: #1d1d1d;
+    text-align: center;
+    font-size: 1.125em;
+    padding: 2.521% 0;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+}
